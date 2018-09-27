@@ -16,16 +16,16 @@ body {
 }
   
 .img-initial {
-    background: url('../images/trivia-game.png') no-repeat center top;
+    background: url('../images/trivia-game.jpg') no-repeat center top;
     background-size: 70%;
     height: 520px;
 }
   
   .start-btn {
     width: 200px;
-    color: #631172;
+    color: #01830c;
     font-size: 36px;
-    border-radius: 50px;
+    border: 5px solid red;
     background: #fed501;
     padding: 10px;
     text-align: center;
@@ -57,8 +57,10 @@ body {
   }
   
   .answer {
+    text-align: center;
+    font-weight: bold;
     padding: 20px;
-    color: #631172;
+    color: black;
     width: 80%;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -99,11 +101,11 @@ body {
   }
   
   .reset-button {
-    background: #ff5270;
+    border: 5px solid black;
+    background: green;
     color: white;
     border: none;
     margin-top: 80px;
-    border-radius: 40px;
     width: 300px;
   }
   
